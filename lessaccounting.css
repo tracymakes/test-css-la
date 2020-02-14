@@ -4217,6 +4217,11 @@ span.switch_businesses .switcher ul li:last-child a {
  min-height:1220px;
  background:white
 }
+@media (min-width: 1200px) {
+  #settings_page .rightcol {
+    width: 860px;
+  }
+}
 #settings_page .rightcol h2 {
  font-size:19px;
  margin:0 0 15px 0
@@ -4448,9 +4453,14 @@ span.switch_businesses .switcher ul li:last-child a {
  line-height:140%
 }
 #target_bank_accounts .bank_account .account .bank_name {
- font-weight:bold;
+ font-weight: 600;
  font-size:12px;
  padding-top:2px
+}
+@media (min-width: 1200px) {
+  #target_bank_accounts .bank_account .account .bank_name {
+    font-size: 16px;
+  }
 }
 #target_bank_accounts .bank_account .account .details span {
  margin:0 15px 0 0;
@@ -4476,7 +4486,12 @@ span.switch_businesses .switcher ul li:last-child a {
  background-image:linear-gradient(#ffffff,#eaeaea);
  border:1px solid #bbbbbb;
  border-bottom-color:#999999;
- text-shadow:0 1px 0 white
+ text-shadow:0 1px 0 white;
+}
+@media (min-width: 1200px) {
+  #target_bank_accounts .bank_account .account a.config {
+    font-size: 12px;
+  }
 }
 #target_bank_accounts .bank_account .account a.config:hover {
  -webkit-box-shadow:#cccccc 0 3px 5px inset;

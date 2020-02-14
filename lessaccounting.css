@@ -3728,7 +3728,7 @@ img.loader {
 }
 #dashboard #spending_graph .facts h4 {
  margin:7px 0 2px 0;
- font-weight:bold
+ font-weight:600;
 }
 #dashboard #spending_graph .facts ul li span {
  width:35px;
@@ -3838,9 +3838,14 @@ img.loader {
 #stat_boxes h3 {
  clear:both;
  font-size:14px;
- font-weight:bold;
+ font-weight:600;
  margin:0 0 5px 0;
  padding:0 10px
+}
+@media (min-width: 1200px) {
+  #stat_boxes h3 {
+    font-size: 18px;
+  }
 }
 #stat_boxes span.fa-warning,
 #stat_boxes span.fa-smile-o {

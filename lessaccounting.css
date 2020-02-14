@@ -146,7 +146,7 @@ summary {
 div,
 input,
 textarea {
- font-family:niveau-grotesk, arial
+ font-family:"poppins", niveau-grotesk, arial
 }
 strong {
  font-weight:bold
@@ -164,7 +164,7 @@ div,
 span {
  -webkit-box-sizing:content-box;
  -moz-box-sizing:content-box;
- box-sizing:content-box
+ box-sizing:content-box;
 }
 em {
  font-style:italic
@@ -182,14 +182,14 @@ button {
  margin:0 0 0 0;
  padding:0 0 0 0;
  border:none;
- font-family:niveau-grotesk, arial, helvetica, sans-serif;
+ font-family:"poppins", niveau-grotesk, arial, helvetica, sans-serif;
  background:none
 }
 button:hover {
  margin:0 0 0 0;
  padding:0 0 0 0;
  border:none;
- font-family:niveau-grotesk, arial, helvetica, sans-serif;
+ font-family:"poppins", niveau-grotesk, arial, helvetica, sans-serif;
  background:none
 }
 table tr.bank_statement td {
@@ -503,7 +503,7 @@ input[type=tel],
 input[type=email],
 input[type=password],
 textarea {
- font-family:niveau-grotesk, arial, helvetica, sans-serif;
+ font-family:"poppins", niveau-grotesk, arial, helvetica, sans-serif;
  font-size:13px;
  padding:13px;
  width:100%;
@@ -1434,7 +1434,7 @@ div.employee li:first-child {
 }
 #ui-datepicker-div .ui-datepicker-title select {
  font-size:14px !important;
- font-family:niveau-grotesk, arial !important
+ font-family:"poppins", niveau-grotesk, arial !important
 }
 #ui-datepicker-div table {
  margin:0 0 0 0
@@ -1722,6 +1722,14 @@ ul#main_nav li a span {
  margin:0px auto;
  padding:0px
 }
+
+@media (min-width: 1200px) {
+  .container {
+    width:1200px;
+  }
+}
+
+
 .container_small {
  margin:0px auto;
  padding:0px;
@@ -1795,6 +1803,11 @@ ul#main_nav li a span {
 #navigation_col ul#main_nav>li.big_nav {
  width:160.8px;
  background:#00b1a9
+}
+@media (min-width: 1200px) {
+  #navigation_col ul#main_nav>li.big_nav {
+    width:208.8px;
+  }
 }
 #navigation_col ul#main_nav>li.small_nav {
  width:39px;
@@ -2946,7 +2959,7 @@ html {
  color:#fff
 }
 .tooltipster-default .tooltipster-content {
- font-family:niveau-grotesk, Arial, sans-serif;
+ font-family:"poppins", niveau-grotesk, Arial, sans-serif;
  font-size:14px;
  line-height:16px;
  padding:8px 10px;
@@ -3197,7 +3210,7 @@ html {
  color:#666666
 }
 .tooltipster-light .tooltipster-content {
- font-family:niveau-grotesk, Arial, sans-serif;
+ font-family:"poppins", niveau-grotesk, Arial, sans-serif;
  font-size:14px;
  line-height:16px;
  padding:8px 10px
@@ -3635,6 +3648,11 @@ img.loader {
  right:0;
  height:100%
 }
+@media (min-width: 1200px) {
+  #dashboard #graphs {
+    width: 670px;
+  }
+}
 #dashboard #dashboard_content {
  position:relative;
  *zoom:1
@@ -3684,6 +3702,11 @@ img.loader {
  padding:25px;
  height:285px
 }
+@media (min-width: 1200px) {
+   #dashboard #spending_graph {
+     height:405px;
+  }
+}
 #dashboard #spending_graph h3 {
  padding-bottom:15px
 }
@@ -3691,6 +3714,11 @@ img.loader {
  position:absolute;
  top:50px;
  right:0px
+}
+@media (min-width: 1200px) {
+ #dashboard #spending_graph #chart3 {
+  right:50px
+ }
 }
 #dashboard #spending_graph .facts {
  position:absolute;
@@ -3719,8 +3747,15 @@ img.loader {
 #dashboard #cash_flow_graph {
  border-top:1px solid #cccccc;
  padding:25px;
- height:285px
+ height:285px;
 }
+
+@media (min-width: 1200px) { 
+  #dashboard #cash_flow_graph {
+    height: 470px;
+  }
+}
+
 #dashboard #cash_flow_graph h3 span.expanded {
  float:right
 }
@@ -3735,6 +3770,11 @@ img.loader {
 #dashboard #cash_flow_graph #chart1 {
  margin:2px 0 0px 0
 }
+@media (min-width: 1200px) {
+  #dashboard #cash_flow_graph #chart1 {
+    margin: 50px;
+  }
+}
 .facts #stuff .column:first-child {
  float:left
 }
@@ -3747,6 +3787,11 @@ img.loader {
 .facts #stuff div {
  width:200px;
  float:left
+}
+@media (min-width: 1200px) {
+   .facts #stuff div {
+ width:250px;
+  }
 }
 .facts #stuff div span {
  padding:1px 0
@@ -3781,7 +3826,14 @@ img.loader {
 #stat_boxes {
  float:left;
  width:427px;
- min-height:700px
+ min-height:700px;
+ /*! border: 1px solid red; */
+}
+@media (min-width: 1200px) {
+  #stat_boxes {
+    width:527px;
+    min-height: 1000px;
+  }
 }
 #stat_boxes h3 {
  clear:both;
@@ -3863,6 +3915,14 @@ img.loader {
  color:#555555;
  font-size:13px;
  float:left
+}
+@media (min-width: 1200px) {
+  #dash_notifications .dashboard_box .label,
+#dash_spending .dashboard_box .label,
+#dash_invoices .dashboard_box .label,
+#dash_bank_balances .dashboard_box .label {
+    font-size:1rem;
+  }
 }
 #dash_notifications .dashboard_box .label .fa,
 #dash_spending .dashboard_box .label .fa,
@@ -4067,7 +4127,7 @@ span.switch_businesses .switcher ul li:last-child a {
 #settings_page div.input label {
  font-size:13px;
  display:block;
- font-family:niveau-grotesk, arial, helvetica, sans-serif;
+ font-family:"poppins", niveau-grotesk, arial, helvetica, sans-serif;
  font-weight:bold;
  padding:0 0 5px 0
 }
@@ -4479,7 +4539,7 @@ span.switch_businesses .switcher ul li:last-child a {
  display:inline-block
 }
 #settings_income_categories_select {
- font-family:niveau-grotesk, arial, helvetica, sans-serif;
+ font-family:"poppins", niveau-grotesk, arial, helvetica, sans-serif;
  font-size:13px;
  padding:13px;
  width:100%;
@@ -4494,7 +4554,7 @@ span.switch_businesses .switcher ul li:last-child a {
 #expense_item_contractor_id,
 #expense_item_employee_id,
 #expense_item_review_status {
- font-family:niveau-grotesk, arial, helvetica, sans-serif !important;
+ font-family:"poppins", niveau-grotesk, arial, helvetica, sans-serif !important;
  font-size:13px !important;
  width:95% !important;
  height:30px !important;
@@ -5246,7 +5306,7 @@ table.subaccounts td {
  font-size:13px;
  line-height:150%;
  color:#333333;
- font-family:niveau-grotesk, arial, helvetica, sans-serif;
+ font-family:"poppins", niveau-grotesk, arial, helvetica, sans-serif;
  padding:25px
 }
 #invoice_preview #company_info_holder {
@@ -5365,7 +5425,7 @@ table.subaccounts td {
  font-size:13px;
  line-height:150%;
  color:#333333;
- font-family:niveau-grotesk, arial, helvetica, sans-serif;
+ font-family:"poppins", niveau-grotesk, arial, helvetica, sans-serif;
  border:1px solid #cccccc
 }
 #invoice_preview #client_info_holder #invoice_info .data_row input.string:hover,
@@ -5459,7 +5519,7 @@ table.subaccounts td {
  font-size:13px;
  line-height:150%;
  color:#333333;
- font-family:niveau-grotesk, arial, helvetica, sans-serif;
+ font-family:"poppins", niveau-grotesk, arial, helvetica, sans-serif;
  padding:5px;
  background-image:-webkit-gradient(linear, 50% 0%, 50% 3, color-stop(0%, #bbb), color-stop(100%, #fff));
  background-image:-webkit-linear-gradient(top, #bbb, #fff 3px);
@@ -5781,7 +5841,7 @@ table.subaccounts td {
 #setup #setup_area div.input label {
  font-size:13px;
  display:block;
- font-family:niveau-grotesk, arial, helvetica, sans-serif;
+ font-family:"poppins", niveau-grotesk, arial, helvetica, sans-serif;
  font-weight:bold;
  padding:0 0 5px 0
 }
@@ -7243,7 +7303,7 @@ table.hierarchical .center {
 }
 .qount_text_fields {
  margin:5px auto !important;
- font-family:niveau-grotesk, arial, helvetica, sans-serif;
+ font-family:"poppins", niveau-grotesk, arial, helvetica, sans-serif;
  font-size:13px;
  padding:13px;
  width:70% !important;
@@ -7253,6 +7313,8 @@ table.hierarchical .center {
 }
 .dashboard-notification-label {
  color:#00b1a9 !important
+ font-family: "poppins", Arial;
+  font-weight: 600;
 }
 .dashboard-financial-balances-label {
  color:#f06459 !important
@@ -7316,7 +7378,7 @@ th {
 input[type=text],
 textarea,
 select {
- font-family:niveau-grotesk, arial, helvetica, sans-serif;
+ font-family:"poppins", niveau-grotesk, arial, helvetica, sans-serif;
  font-size:13px;
  padding:13px;
  width:60%;
@@ -7441,11 +7503,17 @@ form {
 }
 body {
  color:#333333;
- font-family:niveau-grotesk, arial;
+ font-family:"poppins", niveau-grotesk, arial;
  margin:0 auto;
  font-size:13px;
  padding:0 0 0 0;
  line-height:155%
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 16px;
+  } 
 }
 h1 {
  padding:0 0 10px 0 !important;
@@ -7958,7 +8026,7 @@ table.starred_table tr td {
 #star_holder #leave_a_comment input.string {
  width:100%;
  display:block;
- font-family:niveau-grotesk, arial, helvetica, sans-serif;
+ font-family:"poppins", niveau-grotesk, arial, helvetica, sans-serif;
  padding:4px;
  margin:3px 0;
  font-size:13px
@@ -8156,7 +8224,7 @@ abbr {
 #timetable div.input label {
  font-size:13px;
  display:block;
- font-family:niveau-grotesk, arial, helvetica, sans-serif;
+ font-family:"poppins", niveau-grotesk, arial, helvetica, sans-serif;
  font-weight:bold;
  padding:0 0 5px 0
 }
@@ -8936,7 +9004,7 @@ td span.manually_created {
 #autocompleteul .ui-autocomplete li a {
  display:block;
  font-size:12px;
- font-family:niveau-grotesk, arial, helvetica, sans-serif;
+ font-family:"poppins", niveau-grotesk, arial, helvetica, sans-serif;
  padding:7px 10px;
  border-top:1px solid #cccccc;
  -moz-border-radius-topleft:0px;

@@ -5268,6 +5268,13 @@ table.subaccounts td {
  width:703px;
  padding:25px 0 25px 25px
 }
+
+@media (min-width: 1200px) { 
+  #invoices #column {
+    width: 900px;
+  }
+}
+
 #invoices #column table td span.PAID,
 #invoices #column table td span.UNPAID,
 #invoices #column table td span.DRAFT {

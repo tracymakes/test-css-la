@@ -7747,11 +7747,16 @@ table#sales_tax_list th {
 }
 #transactions .column h2,
 #bookkeeper .column h2 {
- font-weight:bold;
- color:#666666;
+ font-weight:600;
+ color:#2b2d50;
  font-size:13px;
  margin:0 0 8px 0;
  padding:0 0 0 0
+}
+@media (min-width: 1200px) {
+  #transactions .column h2, #bookkeeper .column h2 {
+    font-size: 16px;
+  }
 }
 #transactions .column ul.actions_buttons,
 #bookkeeper .column ul.actions_buttons {

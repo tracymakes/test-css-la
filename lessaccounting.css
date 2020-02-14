@@ -3808,7 +3808,7 @@ img.loader {
 .facts #stuff div span.cash_flow_amount {
  float:right;
  text-align:right;
- font-weight:bold
+ font-weight:600;
 }
 .dash_tip {
  margin:5px 0px 5px 10px

@@ -3738,7 +3738,7 @@ img.loader {
  text-align:right
 }
 #dashboard #spending_graph .facts ul li a {
- color:#333333;
+ color:#7b7b91;
  text-decoration:none
 }
 #dashboard #spending_graph .facts ul li a:hover {
@@ -3912,7 +3912,7 @@ img.loader {
 #dash_spending .dashboard_box .label,
 #dash_invoices .dashboard_box .label,
 #dash_bank_balances .dashboard_box .label {
- color:#555555;
+ color:#7b7b91;
  font-size:13px;
  float:left
 }
@@ -7549,7 +7549,7 @@ form {
  border-bottom-color:darkgrey !important
 }
 body {
- color:#333333;
+ color:#2b2d50;
  font-family:"poppins", niveau-grotesk, arial;
  margin:0 auto;
  font-size:13px;

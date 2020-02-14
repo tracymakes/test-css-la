@@ -5498,7 +5498,7 @@ table.subaccounts td {
  float:left;
  width:44%;
  text-align:right;
- font-weight:bold;
+ font-weight:600;
  padding:6px
 }
 #invoice_preview #bottom #totals_info .data_row div:last-child {
@@ -5581,7 +5581,7 @@ table.subaccounts td {
 }
 #line_items table tr th input[type=text],
 #line_items table tr td input[type=text] {
- font-weight:bold;
+ font-weight:600;
  width:100%
 }
 #line_items table tr th.title,
@@ -6019,7 +6019,7 @@ table.subaccounts td {
  width:100%
 }
 #step .section:nth-child(1) .select2-container .select2-choice span {
- margin-right:18px
+ /*! margin-right:18px; */
 }
 #step .section:nth-child(2) {
  width:120px

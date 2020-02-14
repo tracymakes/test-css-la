@@ -4579,7 +4579,7 @@ span.switch_businesses .switcher ul li:last-child a {
  margin:0 0 0 0 !important
 }
 .bold {
- font-weight:bold !important
+ font-weight:600 !important;
 }
 .starting_balance span {
  border:1px solid #cccccc;
@@ -7373,7 +7373,7 @@ table.hierarchical .center {
  color:#f0645a !important
 }
 th {
- font-weight:bold !important;
+ font-weight:600 !important;
  color:black !important
 }
 .text-centre {

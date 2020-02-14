@@ -4128,7 +4128,7 @@ span.switch_businesses .switcher ul li:last-child a {
  font-size:13px;
  display:block;
  font-family:"poppins", niveau-grotesk, arial, helvetica, sans-serif;
- font-weight:bold;
+ font-weight:600;
  padding:0 0 5px 0
 }
 #settings_page div.input textarea {
@@ -7587,7 +7587,7 @@ h1 span.video_help_tip {
 h2 {
  color:#444444;
  font-size:14px;
- font-weight:bold;
+ font-weight:600;
  margin:0px 0 7px 0
 }
 h3 {

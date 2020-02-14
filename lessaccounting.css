@@ -3750,7 +3750,7 @@ img.loader {
  height:285px;
 }
 
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
   #dashboard #cash_flow_graph {
     height: 470px;
   }
@@ -5269,7 +5269,7 @@ table.subaccounts td {
  padding:25px 0 25px 25px
 }
 
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
   #invoices #column {
     width: 900px;
   }
@@ -7520,7 +7520,7 @@ body {
 @media (min-width: 1200px) {
   body {
     font-size: 16px;
-  } 
+  }
 }
 h1 {
  padding:0 0 10px 0 !important;
@@ -7680,6 +7680,11 @@ table#sales_tax_list th {
 #bookkeeper .column:nth-child(3) {
  width:290px;
  border-right:none
+}
+@media (min-width: 1200px) {
+  #transactions .column:nth-child(3) {
+    width: 530px;
+  }
 }
 #transactions .column .section,
 #bookkeeper .column .section {
